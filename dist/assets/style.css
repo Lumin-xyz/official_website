@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    min-width: 1200px;
+}
+.header {
+    display: flex;
+    height: 72px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo {
+    margin-left: 120px;
+}
+.header .try {
+    width: 85px;
+    height: 32px;
+    background: #ffffff;
+    border-radius: 24px;
+    text-align: CENTER;
+    color: #000000;
+    border: none;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+
+.block1 {
+    display: flex;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+}
+.block1 .left {
+    width: 549px;
+}
+.block1 .left .text1 {
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 49px;
+}
+.block1 .left .text2 {
+    font-size: 132px;
+    color: #000000;
+    font-weight: 800;
+    padding-bottom: 49px;
+}
+.block1 .left .text3 {
+    width: 549px;
+    font-size: 14px;
+    color: #a8a8a8;
+    padding-bottom: 10px;
+}
+.block1 .right {
+    position: relative;
+    margin-left: 42px;
+}
+.block1 .right .rect {
+    width: 567px;
+}
+.block1 .right .flower {
+    position: absolute;
+    top: -65px;
+    left: 145px;
+    transition: width 2s;
+}
+
+
+
+.block2 {
+    height: 840px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block2 .left {
+    width: 492px;
+}
+.block2 .text1 {
+    font-size: 80px;
+    color: #000000;
+    padding-bottom: 24px;
+    font-weight: 600;
+}
+.block2 .text2 {
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 24px;
+}
+.block2 .text3 {
+    width: 549px;
+    font-size: 14px;
+    color: #a8a8a8;
+    padding-bottom: 10px;
+}
+.block2 .creator {
+    width: 600px;
+    padding-left: 50px;
+}
+
+
+
+.block3 {
+    height: 840px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block3 .follower {
+    width: 460px;
+    padding-right: 170px;
+}
+.block3 .text1 {
+    font-size: 80px;
+    color: #000000;
+    padding-bottom: 24px;
+    text-align: right;
+    font-weight: 600;
+}
+.block3 .text2 {
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 24px;
+    text-align: right;
+}
+.block3 .text3 {
+    width: 549px;
+    font-size: 14px;
+    color: #a8a8a8;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+
+
+.footer {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    color: white;
+}
+.footer .left {
+    display: flex;
+    align-items: center;
+}
+.footer .right img{
+    height: 25px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+
+
+@keyframes animation1 {
+    from { left: 200px; }
+    to { right: 248px; }
+}
+.animation1 {
+    animation: animation1 0.05s;
+    animation-iteration-count: 30;
+    animation-direction: alternate;
+}
